@@ -48,10 +48,3 @@ These are the actual outputs from `python train.py` with the included CSV. The m
 - **Association, not causation:** Follower count, country, and category are observational. Their relationships with engagement do not show that changing any of them causes engagement to change.
 - **Snapshot, not a forecast:** The data has no time series suitable for testing future performance. The model estimates engagement for held-out accounts from the same snapshot.
 
-## Classroom checklist
-
-- Simple, runnable ML pipeline with splitting, preprocessing, model, and evaluation: `train.py`.
-- Real results and a plot: this README and `results/`.
-- Shareable repository: [sienna-wangxy/510-ML-pipeline](https://github.com/sienna-wangxy/510-ML-pipeline)
-- Team of two: Debshree Chowdhury and Xianyu Wang
-
