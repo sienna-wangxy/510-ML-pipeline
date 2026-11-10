@@ -1,5 +1,9 @@
 # Beyond follower counts: Instagram engagement
 
+**Team:** Xianyu Wang, [Teammate Name]
+
+**Result:** On 20 held-out accounts, Ridge regression reaches **test MAE = 0.976 percentage points** and **R² = 0.626**, compared with a median-baseline MAE of 1.494 and R² of −0.181.
+
 **Research question:** Among the top global Instagram accounts in this dataset, can follower count, posting volume, country, and content category predict 60-day engagement rate? Do accounts with more followers necessarily have higher engagement rates?
 
 ## Data story
@@ -10,7 +14,7 @@ The [Global Instagram Influencers Analytics 2026 dataset](https://www.kaggle.com
 
 ## Reproduce
 
-The original CSV is included in `data/` under the source's **CC0 Public Domain** license. It was downloaded from Kaggle's dataset API on November 10, 2026. With Python 3.10 or newer:
+The original CSV is included in `data/` under the source's **CC0 Public Domain** license. It was downloaded from Kaggle's dataset API on November 10, 2026. Dependencies are pinned to exact versions in `requirements.txt`; results were verified with Python 3.13:
 
 ```bash
 python -m venv .venv
@@ -41,11 +45,3 @@ These are the actual outputs from `python train.py` with the included CSV. The m
 ## Limits and interpretation
 
 This is only 100 already-popular accounts, with 20 in the test set. The results may change with a different split and should not be generalized to ordinary accounts or future posts. Category and country are observational labels, and their association with engagement is not causal. The dataset provides a current 60-day rate but no time series or collection method detailed enough to test future engagement forecasting. The task here is cross-sectional estimation for held-out accounts from the same snapshot.
-
-## Classroom checklist
-
-- Simple, runnable ML pipeline with splitting, preprocessing, model, and evaluation: `train.py`.
-- Real results and a plot: this README and `results/`.
-- Shareable repository: [sienna-wangxy/510-ML-pipeline](https://github.com/sienna-wangxy/510-ML-pipeline)
-- Team of two: add both team members' names before submitting.
-- **Do not submit the assignment yet.**
