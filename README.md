@@ -47,5 +47,4 @@ This is only 100 already-popular accounts, with 20 in the test set. The results 
 - Simple, runnable ML pipeline with splitting, preprocessing, model, and evaluation: `train.py`.
 - Real results and a plot: this README and `results/`.
 - Shareable repository: [sienna-wangxy/510-ML-pipeline](https://github.com/sienna-wangxy/510-ML-pipeline)
-- Team of two: add both team members' names before submitting.
-- **Do not submit the assignment yet.**
+- Team of two: Debshree Chowdhury and Xianyu Wang
