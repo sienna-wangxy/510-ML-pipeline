@@ -54,4 +54,4 @@ These are the actual outputs from `python train.py` with the included CSV. The m
 - Real results and a plot: this README and `results/`.
 - Shareable repository: [sienna-wangxy/510-ML-pipeline](https://github.com/sienna-wangxy/510-ML-pipeline)
 - Team of two: Debshree Chowdhury and Xianyu Wang
-- Classroom submission: pending; do not submit yet.
+
