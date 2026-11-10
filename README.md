@@ -1,6 +1,6 @@
 # Beyond follower counts: Instagram engagement
 
-**Team:** Xianyu Wang, [Teammate Name]
+**Team:** Xianyu Wang, Debshree Chowdhury
 
 **Result:** On 20 held-out accounts, Ridge regression reaches **test MAE = 0.976 percentage points** and **R² = 0.626**, compared with a median-baseline MAE of 1.494 and R² of −0.181.
 
