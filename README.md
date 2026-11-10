@@ -44,9 +44,9 @@ These are the actual outputs from `python train.py` with the included CSV. The m
 
 ## Limits and interpretation
 
-This is only 100 already-popular accounts, with 20 in the test set. The results may change with a different split and should not be generalized to ordinary accounts or future posts. Category and country are observational labels, and their association with engagement is not causal. The dataset provides a current 60-day rate but no time series or collection method detailed enough to test future engagement forecasting. The task here is cross-sectional estimation for held-out accounts from the same snapshot.
-<<<<<<< HEAD
-=======
+- **Small, selected sample:** The dataset contains 100 already-popular accounts, with only 20 in the test set. Results may change with another split and may not apply to ordinary accounts.
+- **Association, not causation:** Follower count, country, and category are observational. Their relationships with engagement do not show that changing any of them causes engagement to change.
+- **Snapshot, not a forecast:** The data has no time series suitable for testing future performance. The model estimates engagement for held-out accounts from the same snapshot.
 
 ## Classroom checklist
 
@@ -54,4 +54,4 @@ This is only 100 already-popular accounts, with 20 in the test set. The results 
 - Real results and a plot: this README and `results/`.
 - Shareable repository: [sienna-wangxy/510-ML-pipeline](https://github.com/sienna-wangxy/510-ML-pipeline)
 - Team of two: Debshree Chowdhury and Xianyu Wang
->>>>>>> 8bd2f4acf6d81a34f3ace01e3f373d0f64726d93
+- Classroom submission: pending; do not submit yet.
