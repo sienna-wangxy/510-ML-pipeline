@@ -1,0 +1,30 @@
+{
+  "dataset_rows": 100,
+  "train_rows": 80,
+  "test_rows": 20,
+  "random_seed": 42,
+  "target": "60_day_eng_rate",
+  "features": [
+    "followers",
+    "posts",
+    "country",
+    "category"
+  ],
+  "baseline_test": {
+    "mae_percentage_points": 1.494,
+    "rmse_percentage_points": 2.322,
+    "r2": -0.181
+  },
+  "ridge_test": {
+    "mae_percentage_points": 0.976,
+    "rmse_percentage_points": 1.307,
+    "r2": 0.626
+  },
+  "follower_engagement_spearman": -0.34,
+  "follower_quartile_median_engagement_pct": {
+    "Q1": 3.52,
+    "Q2": 2.64,
+    "Q3": 1.93,
+    "Q4": 1.68
+  }
+}
